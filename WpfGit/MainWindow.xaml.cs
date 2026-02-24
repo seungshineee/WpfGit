@@ -23,7 +23,7 @@ namespace WpfGit
 
         private void btAdd_Click(object sender, RoutedEventArgs e)
         {
-            tbRes.Text = $"Результат: {int.Parse(tbOne.Text)+int.Parse(tbTwo.Text)}";
+            tbRes.Text = $"Результат сложения: {int.Parse(tbOne.Text)+int.Parse(tbTwo.Text)}";
         }
     }
 }
