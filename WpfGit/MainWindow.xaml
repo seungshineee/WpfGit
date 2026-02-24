@@ -11,6 +11,7 @@
             <TextBox x:Name="tbOne"/>
             <TextBox x:Name="tbTwo"/>
             <Button x:Name="btAdd" Content="сложить" Click="btAdd_Click"/>
+            <Button x:Name="btMultiply" Content="умножить" Click="btMultiply_Click"/>
             <TextBlock x:Name="tbRes" Text="Результат: "/>
         </StackPanel>
     </Grid>

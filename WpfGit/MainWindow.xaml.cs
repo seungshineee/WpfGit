@@ -25,5 +25,10 @@ namespace WpfGit
         {
             tbRes.Text = $"Результат: {int.Parse(tbOne.Text)+int.Parse(tbTwo.Text)}";
         }
+
+        private void btMultiply_Click(object sender, RoutedEventArgs e)
+        {
+            tbRes.Text = $"Результат: {int.Parse(tbOne.Text) * int.Parse(tbTwo.Text)}";
+        }
     }
 }
