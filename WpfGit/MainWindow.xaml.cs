@@ -20,5 +20,10 @@ namespace WpfGit
         {
             InitializeComponent();
         }
+
+        private void btAdd_Click(object sender, RoutedEventArgs e)
+        {
+            tbRes.Text = $"Результат: {int.Parse(tbOne.Text)+int.Parse(tbTwo.Text)}";
+        }
     }
 }

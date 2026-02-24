@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:WpfGit"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid Background="CornflowerBlue">
+        <StackPanel>
+            <TextBox x:Name="tbOne"/>
+            <TextBox x:Name="tbTwo"/>
+            <Button x:Name="btAdd" Content="сложить" Click="btAdd_Click"/>
+            <TextBlock x:Name="tbRes" Text="Результат: "/>
+        </StackPanel>
     </Grid>
 </Window>
